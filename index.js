@@ -16,7 +16,7 @@ const resource = '/posts';
 
 // Request handler to handle all requests
 const requestHandler = async (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3001');
   res.setHeader(
     'Access-Control-Allow-Methods',
     'POST',
